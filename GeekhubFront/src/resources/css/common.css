@@ -1,0 +1,38 @@
+/**
+ * @file 全局样式配置
+ * Copyright 2018 Jike Inc. All rights Reserved.
+ * -------------------------------------------------------------------
+ * Modification history
+ * -------------------------------------------------------------------
+ * @author  Created on 2018/09/22, by Xu Fuping <18875142455@163.com>
+ *
+ */
+html {
+    height: 100%;
+}
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    font-size: 14px;
+    font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
+        WenQuanYi Micro Hei, sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p {
+    margin: 0;
+}
+.router-link-active {
+    text-decoration: none;
+}
