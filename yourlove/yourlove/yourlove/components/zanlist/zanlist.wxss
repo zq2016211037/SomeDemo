@@ -1,0 +1,64 @@
+.zanzone{
+	margin-top:25rpx;
+	height: 320rpx;
+	width: 750rpx;
+	border-top: 1px solid #DAD7D7;
+	border-bottom: 1px solid #DAD7D7;
+	background-color: #FFFFFF;
+}
+.dz_head{
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 190rpx;
+	margin: 21rpx 0 0 37rpx;
+	float: left;
+}
+.nameandtime{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	margin: 16rpx 0 0 30rpx;
+}
+.dz_name{
+	font-size: 15px;
+}
+.dz_time{
+	font-size: 12px;
+	margin-top: 8rpx;
+	color: #A09898;
+}
+.zan{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15rpx;
+}
+.zanlogo{
+	width: 25rpx;
+	height: 25rpx;
+}
+.zanlogo{
+	width: 26rpx;
+	height: 26rpx;
+	margin-left: 40rpx;
+	margin-top: 10rpx;
+}
+.text-zanlewo{
+	font-size: 12px;
+	margin-left: 20rpx;
+	margin-top: 8rpx;
+}
+.spe_info{
+	height: 100rpx;
+	width: 674rpx;
+	background-color: #F2F2F2;
+	margin: 0 auto;
+	margin-top: 20rpx;
+	line-height: 100rpx;
+	font-size: 12px;
+}
+.bz_name{
+	margin-left: 40rpx;
+}
+.bz_info{
+	margin-left: 5rpx;
+}

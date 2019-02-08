@@ -1,0 +1,34 @@
+<headerReturn></headerReturn>
+<view class="perinfo">
+	<image class="userhead" src="{{userhead}}"></image>
+	<view class="inforight">
+		<view class="infotop">
+			<text class="username">{{username}}</text>
+			<text class="userlevel">{{userlevel}}</text>
+			
+			<view class="focusicon" bindtap='follow'>{{focustext}}</view>
+			<view class="messageicon">私信</view>
+		</view>
+		<view class="usersignature">\n{{usersignature}}</view>
+		<view class="num">
+			<text class="releasenum">{{releasenum}}</text>
+			<text class="text">发布</text>
+			<text class="focusnum">{{focusnum}}</text>
+			<text class="text">关注</text>
+			<text class="fansnum">{{fansnum}}</text>
+			<text class="text">粉丝</text>
+		</view>
+	</view>
+
+	
+</view>
+<navigator url="/pages/MyInfo/ModiInfo/ModiInfo">
+	<view class="moreinfo">
+	更多信息
+	<image src="/images/MyInfo/arrow.png"></image>
+	</view>
+</navigator>
+<view class="myrelease">
+	<mynewsotherpic></mynewsotherpic>
+	<mynewsothertext></mynewsothertext>
+</view>

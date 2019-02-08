@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "archive": "/components/archive/archive",
+    "focusItem": "/components/focusItem/focusItem",
+    "HTarchives": "/components/HTarchives/HTarchives"
+  }
+}

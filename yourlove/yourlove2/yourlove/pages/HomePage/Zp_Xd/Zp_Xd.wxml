@@ -1,0 +1,35 @@
+<view class='wrapper_xdzp'>
+  <headerReturn></headerReturn>
+
+    <view class='Zp_Xd'> 
+      <view class="nav">
+      <view bindtap="feeling" class="{{lovechosed}}">
+        <text>心得</text>
+        <image src="/images/yousuozhi/hotsearch.png" class="piclove"></image>
+        
+      </view>
+      <view bindtap="recruitment" class="{{topicchosed}}">
+        <text style="font-family: 平方;">招聘</text>
+        <image src="/images/yousuozhi/advertise.png" class="pictopic"></image>
+      </view>
+    </view> 
+    <view class="line">
+      <view class="line_l" id="{{linelchosed}}"></view>
+      <view class="line_r" id="{{linerchosed}}"></view>
+    </view>
+    <!-- 选项卡内容 -->
+       <view class='tabCnt' wx:if="{{!navshow}}">
+
+        <!-- 心得内容 -->
+        <view wx:for="{{feelingDataList}}">
+            <archive title='{{item.title}}' userLogo='{{item.userAvatarUrl}}' userName='{{item.userName}}' likeNum='{{item.isLikeNum}}'  commentNum='{{item.repliesNum}}' psgCnt='{{item.content}}' psgId = '{{item.topicId}}' topicType='{{topicType}}'></archive> 
+        </view>
+      </view>
+      <view class='tabCnt' wx:if="{{navshow}}">
+        <!-- 招聘内容-->
+        <view wx:for="{{recruitmentDataList}}">
+            <archive title='{{item.title}}' userLogo='{{item.userAvatarUrl}}' userName='{{item.userName}}' likeNum='{{item.isLikeNum}}'  commentNum='{{item.repliesNum}}' psgCnt='{{item.content}}' psgId = '{{item.topicId}}' topicType='{{topicType}}'></archive> 
+        </view>
+      </view>  
+   </view>    
+</view>

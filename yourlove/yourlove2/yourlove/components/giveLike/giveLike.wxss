@@ -1,0 +1,12 @@
+/* view{
+  width: 40rpx;
+  height: 40rpx;
+} */
+.givelike{
+	width:40rpx;
+	height:40rpx;
+}
+.likeLogo{
+	width:40rpx;
+	height:40rpx;
+}

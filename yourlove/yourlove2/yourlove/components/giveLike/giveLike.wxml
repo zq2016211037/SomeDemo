@@ -1,0 +1,6 @@
+<!--components/giveLike/giveLike.wxml-->
+<view class='givelike'>
+
+    <image class='likeLogo' src='/images/yousuozhi/like.png' catchtap='giveLike'></image>
+    <label>{{likenum}}</label>
+</view>

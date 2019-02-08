@@ -1,0 +1,60 @@
+<page>
+  <button class="getUserInfo" wx:if="{{canIUse&&!showForm}}"  open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"> 授权          </button>
+<view wx:else>
+  <view class="logo">
+    <image src="/images/HomePage/ulove.png"/>
+  </view>
+  <view class="login">
+    <form>
+    <view class="inputBar">
+      <input type="number" placeholder="请输入统一认证码" bindblur='getNum' cursor-spacing="20"/>
+      <view>
+        账号 
+        <text>
+          |
+        </text>
+      </view>
+    </view>
+    <view class="inputBar">
+      <input type="text" password='true' placeholder='初始密码为身份证后六位' bindblur='getPass' cursor-spacing="20" />
+       <view>
+          密码 
+          <text>
+            |
+          </text>
+      </view>
+    </view>
+      <button class="submit" bindtap='enter'>
+      开启邮爱之旅
+      </button>
+    </form>
+    <view class="help" bindtap="helpShow">
+      帮助
+      <image src="/images/login/help.png"/>
+    </view>
+  </view>
+  <view class="helpWrap" wx:if="{{helpShow}}">
+    <view class="helpWords">
+    <image src="/images/login/close.png" class="close" bindtap='noShow'/>
+    <text class="title">
+    帮助
+    </text>
+    <text class="question">
+     1. 账号和密码是什么？
+    </text>
+    <text class="answer">
+      账号：账号为学号（在读学生）<br/>
+      密码：初始密码或者已更改密码<br/>
+      其中初始密码与跟人身份证号相关，
+      采用以下规则：①身份证号码：取最后6位作为密码；Ⅱ身份证最后一位是X的默认大写；③无居名身份证的人（如国外留学生等），密码与统一认证码相同。
+    </text>
+      <text class="question">
+     2. 忘记密码？
+    </text>
+    <text class="answer">
+      请访问统一身份认证平台（https://ids.cqupt.edu.cn)进行忘记密码操作
+    </text>
+    </view>
+  </view>
+</view>
+</page>

@@ -1,0 +1,23 @@
+<navigator url="{{url}}">
+<view class="hotSearchnews">
+	<view class="newsleft">
+		<view class="titleandicon">
+			<text class="title">{{title}}\n</text>
+			<image class="icon" src="{{icon}}"></image>
+		</view>
+		<text class="abstract">{{abstract}}</text>
+		<view class="userandlogo">
+			<image class="userhead" src="{{head}}"></image>
+			<text class="username">{{name}}</text>			
+			
+			<image class="commentlogo" src="{{commentsrc}}"></image>
+			<text class="numcomment">{{commentnum}}</text>
+			<image class="zanlogo" src="/images/HotSearch/zanlogo.png"></image>
+			<text class="zannum">{{zannum}}</text>
+		</view>
+	</view>
+	<view class="newsright">
+		<image class="pic" src="{{img}}"></image>
+	</view>
+</view>
+</navigator>

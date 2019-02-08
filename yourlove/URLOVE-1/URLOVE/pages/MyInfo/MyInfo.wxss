@@ -1,0 +1,168 @@
+.middle {
+	width: fill;
+	height: 102rpx;
+	display: flex;
+	flex-direction: row;
+	background: white;
+	margin-bottom: 5px;
+}
+
+.bottom-info{
+	width: fill;
+	height: 88rpx;
+	background: white;
+	margin-bottom: 5px;
+}
+
+.bottom-lv{
+	width: fill;
+	height: 88rpx;
+	/*background: white;*/
+	background: #EFEBEB;
+	margin-bottom: 5px;
+}
+.bottom-integral{
+	width: fill;
+	height: 88rpx;
+	/*background: white;*/
+	background: #EFEBEB;
+	margin-bottom: 5px;
+}
+
+.bottom-about{
+	width: fill;
+	height: 88rpx;
+	background: white;
+	margin-bottom: 5px;
+}
+
+.bottom-advice{
+	width: fill;
+	height: 88rpx;
+	background: white;
+	margin-bottom: 5px;
+}
+.bottom-texttype{
+	font-size: 14px;
+	line-height: 88rpx;
+	margin-left: 28rpx;
+	float: left;
+}
+.bottom{
+	margin-bottom: 50px;
+
+}
+
+.top{
+	width: fill;
+	height: 230rpx;
+	display: flex;
+	flex-direction: row;
+	background: white;
+	margin-bottom: 5px;
+}
+
+.top-headimg{
+	width: 157rpx;
+	height: 157rpx;
+	margin-left: 40rpx;
+	margin-top: 35rpx;
+}
+
+.top-xinxi-nameandqiandao{
+	display: flex;
+	flex-direction: row;
+}
+
+.qiandao{
+	font-size: 25rpx;
+	margin-top: 48rpx;
+	margin-left: 220rpx;
+	border-color: #FFcc00;
+	border-style: solid;
+	border-width: 2rpx;
+	border-radius: 10rpx;
+	color:#FFcc00;
+	padding-left: 5rpx;
+	padding-right: 10rpx;
+}
+
+.top-xinxi{
+	margin-left: 35rpx;
+}
+
+.top-headimg-src{
+	width: 157rpx;
+	height: 157rpx;
+	border-radius: 50%;
+}
+
+.top-xinxi-name{ 
+	height: 27rpx;
+	margin-top: 45rpx;
+}
+
+.top-xinxi-brief{
+	font-size: 13px;
+	color: #959393;
+	margin-top: 19rpx;
+}
+
+.pbglv{
+	display: flex;
+	flex-direction: row;
+}
+.pbgtext{
+	font-size: 13px;
+	color: #959393;
+	margin-top: 19rpx;
+	margin-right: 10rpx;
+}
+
+.pbg{
+	margin-top: 19rpx;
+}
+
+.middle-release{
+	width: 33.33%;
+	text-align: center;
+}
+
+.middle-follow{
+	width: 33.33%;
+	text-align: center;
+}
+
+.middle-Fans{
+	width: 33.33%;
+	text-align: center;
+}
+
+
+.page{
+	background: #F2F2F2;
+	width: 750rpx;
+	height: 1334rpx;
+}
+
+.middle-vartype{
+	font-size: 18px;
+	margin-top: 12rpx;
+}
+.middle-texttype{
+	font-size: 14px;
+	color: #A7A5A5;
+	margin-top: -3rpx;
+}
+
+.btn{
+	width: 365rpx;
+	height: 69rpx;
+	font-size: 16px;
+	background-color: #FFB064;
+	line-height: 69rpx;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 68rpx;
+  margin:0 auto;
+}

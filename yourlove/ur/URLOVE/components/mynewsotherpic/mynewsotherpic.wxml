@@ -1,0 +1,24 @@
+<view class="hotSearchnews">
+	<view class="newsleft">
+		<text class="title">{{title}}</text>
+		<view class="middle">
+			<view class="abstract">{{content}}</view>
+			<image class="icon" src="/images/HotSearch/searchBarIcon2.png"></image>
+		</view>
+		<view class="userandlogo">
+			<view style="float: left;">
+				<image class="userhead" src="{{userAvatarUrl}}"></image>
+				<text class="username">{{userName}}</text>
+			</view>
+			<view style="float: right;">
+				<image class="zanlogo" src="/images/HotSearch/zanlogo.png"></image>
+				<text class="zannum">{{isLikeNum}}</text>
+				<image class="zanlogo" src="/images/HotSearch/comment.png"></image>
+				<text class="zannum">{{repliesNum}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="newsright">
+		<image class="pic" src="{{img}}"></image>
+	</view>
+</view>

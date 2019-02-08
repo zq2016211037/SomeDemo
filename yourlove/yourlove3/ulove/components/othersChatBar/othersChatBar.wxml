@@ -1,0 +1,9 @@
+<view class="chatBar">
+  <image src="{{image}}" class="chatPhoto">
+  </image>
+  <view class="tan">
+  </view>
+  <view class="chatWords">
+    {{word}}
+  </view>
+</view>

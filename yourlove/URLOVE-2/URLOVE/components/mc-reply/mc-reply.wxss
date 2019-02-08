@@ -1,0 +1,16 @@
+.inputview{
+	position: fixed;
+	bottom: 0rpx;
+	width: 100%;
+	height: 80rpx;
+	background-color: red;
+}
+.inputarea{
+	width: 600rpx;
+	float: left;
+}
+.submit{
+	width:100rpx;
+	float:right;
+	font-size:22rpx;
+}

@@ -1,0 +1,60 @@
+/* components/focusItem/focusItem.wxss */
+ view{
+  margin: 0;
+  padding: 0;
+} 
+ .focus{
+   height: 100%; 
+  background: #fcfcfc;
+} 
+.focusItem{
+  position: relative;
+  height: 136rpx;
+  padding-left: 177rpx;
+  padding-right: 30rpx;
+  display: flex; 
+  align-items: center;
+  background: #fff;
+  border: 1rpx solid #eee;
+  margin: 11rpx 0;
+}
+.focusItem .left{
+  width: 177rpx;
+  height: 136rpx;
+  float: left;
+  margin-left: -177rpx;
+}
+.focusItem .left image{
+  width: 89rpx;
+  height: 89rpx;
+  margin: 20rpx 36rpx 24rpx 36rpx;
+  border-radius: 44rpx;
+}
+.focusItem .msgs{
+  width: 100%;
+  height: 133rpx;
+  display: block;
+  float: left;
+}
+.msgs .userName{
+  margin-top: 22rpx;
+   height: 48rpx; 
+  font-size:26rpx;
+  line-height: 48rpx;
+}
+.msgs .focushint{
+  margin-bottom: 10rpx;
+   height: 43rpx; 
+  font-size:23rpx;
+  line-height: 43rpx;
+}
+.focusItem .hint{
+  width:300rpx;
+  height: 133rpx;
+  display: block;
+  text-align: right;
+}
+.hint .focusTime{
+  font-size: 19rpx;
+  margin-top: 36rpx;
+}

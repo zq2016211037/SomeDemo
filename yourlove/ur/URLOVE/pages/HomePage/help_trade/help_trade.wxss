@@ -1,0 +1,108 @@
+/* pages/help_trade/help_trade.wxss */
+/* 心得招聘 */
+.wrapper_bzjy{
+  height: 100%;
+  background: #f2f2f2;
+}
+.help_trade{
+  width: 100%;
+}
+ .tabBtn{
+  /*display: flex;
+  justify-content: space-around;
+  background: #fff;
+  font-size: 29rpx;
+  line-height: 67rpx; 
+  font-weight: bold;
+  letter-spacing: 2px;*/
+  width: 100%;
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+  line-height: 75rpx;
+  font-size: 29rpx;
+  background-color: #FFFFFF;
+} 
+.tab_item{
+   /*height: 67rpx;
+   margin: 0 12%; 
+   text-align: center; 
+   color: #666666;*/
+  width: 50%;
+  text-align: center;
+}
+.tab_item_title{
+  display: inline-block;
+  height: 67rpx;
+  line-height: 67rpx;
+}
+.tab_item image{
+  width: 47rpx;
+  height: 47rpx;
+
+  
+}
+.on{
+  /*position: relative;
+  color: #000;
+  bottom: -6rpx;
+  border-bottom: 6rpx solid yellow;*/
+  color:#636362;
+  font-weight: bolder;
+}
+.tabCnt{
+  
+}
+.line{
+  width: 100%;
+  height: 10rpx;
+  display: flex;
+  flex-direction: center;
+  background-color: #F2F2F2;
+}
+.line_l{
+  width: 375rpx;
+}
+.line_r{
+  width: 375rpx;
+}
+#line_chosed{
+  width: 142rpx;
+  margin:0 auto;
+  background-color: #FEB203;
+}
+.nav{
+  width: 100%;
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+  line-height: 75rpx;
+  font-size: 29rpx;
+  background-color: #FFFFFF;
+  color:#999;
+
+}
+.nav view{
+  width: 50%;
+  text-align: center;
+
+}
+
+.piclove{
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: 5rpx;
+  vertical-align:middle;
+  margin-bottom: 10rpx;
+}
+.pictopic{
+  width: 38rpx;
+  height: 38rpx;
+  vertical-align:middle;
+  margin-bottom: 5rpx;
+  margin-left: 3rpx;
+}
+.chosed{
+  color:#000000;
+
+}

@@ -1,0 +1,27 @@
+<!--pages/briefInstru/briefInstru.wxml-->
+<view class="briefInstru">
+  <view class="header"></view>
+  
+  <view class='briefTop'></view>
+  <view class='logo'>
+    <image src='/images/briefInstru/logo.png'></image>
+    <label>V0.1.0</label>
+    <label>公测</label>
+  </view>
+  <view class='fenge'></view>
+  <view class='briefCnt'>
+    <view class='title'>简介</view>
+      <view class='culture'>
+        <view class='cultureTitle'>冷刃文化</view>
+        冷刃工作室成立于2018年3月9日，冷刃工作室成立于2018年3月9日，冷刃工作室成立于2018年3月9日，冷刃工作室成立于2018年3月9日，冷刃工作室成立于2018年3月9日
+      </view>
+      <view class='background'>
+        <view class='backgroundTitle'>冷刃背景</view>
+        冷刃工作室背靠通信ITC战队，人力资源丰沃，技术方面，冷刃工作死背靠通信ITC战队，人力资源丰沃，技术方面冷刃工作死背靠通信ITC战队，人力资源丰沃，技术方面
+      </view>
+      <view class='expectation'>
+        <view class='expectationTitle'>冷刃展望</view>
+        在未来冷刃工作室将打造梦想的天堂， 在未来冷刃工作室将打造梦想的天堂， 在未来冷刃工作室将打造梦想的天堂， 在未来冷刃工作室将打造梦想的天堂
+      </view>
+    </view>
+</view>

@@ -1,0 +1,236 @@
+ .page{
+   width: 100%;
+   background: #f2f2f2;
+ }
+ .title{
+	width: 100%;
+	/* height: 111rpx; */
+	padding-left: 39rpx;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	font-size: 36rpx;
+	font: 苹方;		
+	background-color: white;
+	margin: 8rpx 0;
+	font-weight: bold;
+} 
+ .Pinfo{
+ 	background-color: white;
+	margin-top: -16rpx;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 101rpx;
+}
+.Pinfo1{
+	display: flex;
+	flex-direction: row;
+  height: 60rpx;
+}
+.Pimg{
+	margin-right: 10rpx;
+	margin-top: 28rpx;
+	width: 60rpx;
+	height: 60rpx;
+	border-radius: 30rpx;
+	/* margin-left: 37rpx; */
+} 
+ .page{
+	background-color: #F2F2F2;
+} 
+
+.Pname{
+  height: 30rpx;
+	font-size: 30rpx;
+	font: 苹方;
+  line-height: 30rpx;
+}
+
+.Pnas{
+  margin-top: 30rpx;
+  height: 30rpx;
+	margin-left: 10rpx;	
+  line-height: 30rpx;
+}
+
+.Psign{
+	font-size: 20rpx;
+	font: 苹方;
+  color: #333;
+  line-height: 30rpx;
+}
+
+.cta-top{
+	width: 100%;
+	height: 80rpx;
+	font: 苹方;
+	font-size: 30rpx;
+	color: #666666;
+}
+.article{
+  padding: 16rpx 37rpx;
+  background: #fff;
+}
+.contentout{
+	padding-bottom: 26rpx;
+	/* padding-left:69rpx; 
+	padding-right:62rpx; */
+	background-color: white;
+}
+
+.contentd{
+	/*position: relative;*/
+    width: 100%;
+  	background-color:white;
+  	word-wrap: break-word;
+  	font: 苹方;
+  	font-size: 31rpx;
+  	color: #666;
+    line-height: 48rpx;
+    margin-bottom: 12rpx;
+}
+.cta-detail{
+	/* width: 100%; */
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-bottom: 37rpx;
+  /* padding:0 37rpx 0 0; */
+}
+
+.cta-detail-img{
+	width:80rpx;
+	height: 80rpx;
+	border-radius: 40rpx;
+	margin-left: 30rpx;
+}
+
+.status{
+	width: 620rpx;
+	margin-left: 22rpx;
+	margin-right: 10rpx;
+}
+
+.status-sta{
+	width: 691rpx;
+	height:23rpx;
+	display: flex;
+	flex-direction: row;
+}
+
+.cta-detail-zan{
+	width: 30rpx;
+	height: 30rpx;
+}
+
+.cta-detail-name{
+	font-size: 34rpx;
+	height: 40rpx;
+  line-height: 40rpx;
+	color: #666666;
+}
+.zan-status{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	right:43rpx;
+}
+
+.commentarea{
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+}
+
+.cta-detail-zannum{
+	height: 30rpx;
+	font-size: 30rpx;
+	color:#b2b2b2;
+}
+
+.cta-ctacp-ta{
+	margin-top: 34rpx;
+  font-size: 26rpx;
+  line-height: 46rpx;
+  color: #353535;
+  margin-right: 37rpx; 
+}
+.cta-top{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40rpx;
+  margin-right: 22rpx;
+	margin-top: 40rpx;
+	/* margin-bottom: 40rpx; */
+}
+
+.cta-top-right{
+	position: absolute;
+	right: 40rpx;
+}
+
+.Pheart{
+	position: absolute;
+	right: 40rpx;
+	margin-top: 28rpx;
+	width: 33rpx;
+	height: 36rpx;
+}
+
+.cplusimag{
+	margin-left: 18rpx;
+	width: 75rpx;
+	height: 75rpx;
+  padding: 12.5rpx 0;
+}
+
+.cbiaoqing{
+	margin-left: 19rpx;
+	width: 75rpx;
+	height: 75rpx;
+  padding: 12.5rpx 0;
+}
+
+.thread{
+/* width:85%; */
+background-color:lightgray;
+height:1px;
+margin-bottom:20rpx;
+margin:20rpx auto;
+margin-left: 121rpx;
+margin-right: 40rpx;
+}
+ .VP1{
+  margin:0 auto;
+  max-height:400rpx;
+  overflow:hidden;
+
+  margin: 0 auto;
+} 
+/* 一张 */
+image.P1{
+margin-top:7rpx;
+width:90%;
+margin:7rpx 5% 0 5%;
+}
+
+
+/* 两张、四张 */
+.P2row1 image{
+  width: 49%;
+  height: 296rpx;
+  /* margin: 7rpx; */
+  margin: 0 auto;
+  padding: 0.5%;
+}
+/* 九张、三张 */ 
+.P9row1{
+
+}
+.P9row1 image{
+  width: 32%;
+  height: 200rpx;
+  /* margin: 7rpx; */
+  margin: 0 auto;
+  padding: 0.5%;
+}

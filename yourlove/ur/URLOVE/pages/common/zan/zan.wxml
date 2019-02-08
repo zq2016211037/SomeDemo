@@ -1,0 +1,10 @@
+
+<view class="page">
+	<header></header>
+
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+	<zanlist></zanlist>
+</view>

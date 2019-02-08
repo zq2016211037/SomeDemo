@@ -1,0 +1,6 @@
+<!--components/headerReturn/headerReturn.wxml-->
+<view class="headerReturn">
+  <image bindtap ='prev' class='prevLogo' src='/images/yousuozhi/return.png'></image>
+  <view class="title">邮爱</view>
+</view>
+ <view class="empty"></view>

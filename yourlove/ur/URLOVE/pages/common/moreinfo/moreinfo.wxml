@@ -1,0 +1,41 @@
+<view class="page">
+	<headerReturn></headerReturn>
+	<view class="InfoItem1">
+		<view class="InfoItem">
+			<view class="InfoItem-name">头像</view>
+			<view class="InfoItem-white" bindtap="headdetail">
+			    <image src="/images/Message/details.png" style="width: 60rpx; height: 50rpx;background-color: #FFFFFF;margin-top: 20rpx; float: right;"></image>
+			</view>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">昵称</view>
+			<text class="InfoItem-white" >{{name}}</text>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">签名</view>
+			<text class="InfoItem-white">{{signature}}</text>
+		</view>
+	</view>
+	<view class="InfoItem2">
+		<view class="InfoItem">
+			<view class="InfoItem-name">年级</view>
+			<text class="InfoItem-white">{{grade}}</text>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">专业</view>
+			<text class="InfoItem-white">{{major}}</text>
+		</view>
+	</view>
+	<view class="InfoItem3">
+		<view class="InfoItem">
+			<view class="InfoItem-name">生日</view>
+			<view class="InfoItem-white">
+				{{birthday}}
+			</view>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">邮箱</view>
+			<view class="InfoItem-white">{{mail}}</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,10 @@
+<page>
+  <headerReturn></headerReturn>
+  <view class="content">
+    <chatBar image="/images/MyInfo/head.png" word="哈哈哈哈你个大傻瓜"></chatBar>
+    <othersChatBar image="/images/MyInfo/head.png" word="hah"></othersChatBar>
+    <chatBar image="/images/MyInfo/head.png" word="哈哈哈哈你个大傻瓜"></chatBar>
+    <othersChatBar image='/images/MyInfo/head.png' word="hhh"></othersChatBar>
+  </view>
+  <chatInput></chatInput>
+</page>

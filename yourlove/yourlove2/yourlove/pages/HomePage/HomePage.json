@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "header": "/components/header/header",
+    "bottom": "/components/bottom/bottom",
+    "publish": "/components/publish/publish"
+  }
+}

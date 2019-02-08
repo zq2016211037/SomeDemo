@@ -1,0 +1,18 @@
+<view class="zanzone" bindtap="gourl1">
+	<view>
+		<image class="dz_head" src="/images/zan/head.jpg" catchtap="gourl2"></image>
+		<view class="nameandtime">
+			<text class="dz_name">Zous</text>
+			<text class="dz_time">20:08</text>
+		</view>
+	</view>
+	<view style="clear:both;height:0"></view>  
+	<view class="zan">
+		<image class="zanlogo" src="/images/zan/zanlogo.png"></image>
+		<text class="text-zanlewo">赞了我</text>
+	</view>
+	<view class="spe_info">
+		<text class="bz_name">MCH:</text><!--注意有个冒号-->
+		<text class="bz_info">cmycql</text>
+	</view>
+</view>

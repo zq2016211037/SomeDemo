@@ -1,0 +1,61 @@
+/* pages/briefInstru/briefInstru.wxss */
+.header{
+  width:100%;
+  height:128rpx;
+  color:#fff;
+  background:linear-gradient(to right,#ffb064,#ffe35a); 
+}
+.briefInstru{
+  width: 100%;
+}
+.briefTop{
+  width: 100%;
+  height: 346rpx;
+  background:#ccc; 
+}
+.logo{
+  height: 90rpx;
+  /* border-bottom: 9rpx solid #ccc; */
+  margin-left: 67rpx;
+}
+.logo image{
+  width: 59rpx;
+  height: 57rpx;
+  margin-top: 17rpx;
+  margin-right: 28rpx;
+}
+.logo label{
+  position: relative;
+  display: inline-block;
+  height: 37rpx;
+  color: #ffcc33;
+  font-size: 26rpx;
+  padding: 5rpx 10rpx;
+  border:1px solid #ffcc33;
+  border-radius: 15rpx;
+  margin: 16rpx 5rpx;
+  bottom: 16rpx;
+}
+.fenge{
+  height: 9rpx;
+  background: #c2c2c2;
+}
+.briefCnt{
+  position: relative;
+  margin: 0 61rpx;
+}
+.briefCnt .title{
+  margin-top: 41rpx;
+  font-size: 36rpx;
+  line-height: 58rpx;
+}
+.cultureTitle, .backgroundTitle, .expectationTitle{
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 50rpx;
+  }
+.culture,.background,.expectation{
+  font-size: 26rpx;
+  color: #333;
+  line-height: 46rpx;
+}

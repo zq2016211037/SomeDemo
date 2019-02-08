@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "zanmynewspic": "/components/zanmynewspic/zanmynewspic",
+    "zanmynewstext": "/components/zanmynewstext/zanmynewstext"
+  }
+}

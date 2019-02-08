@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "mynewsotherpic": "/components/mynewsotherpic/mynewsotherpic",
+    "mynewsothertext": "/components/mynewsothertext/mynewsothertext",
+    "mynewspic": "/components/mynewspic/mynewspic",
+    "mynewstext": "/components/mynewstext/mynewstext",
+    "releasetext": "/components/releasetext/releasetext"
+   } 
+}

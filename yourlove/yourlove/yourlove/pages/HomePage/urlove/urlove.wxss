@@ -1,0 +1,70 @@
+.page{
+	width: 100%;
+	height: 1334rpx;
+	background-color: #F2F2F2;
+}
+.banner{
+	width: 100%;
+	height: 313rpx;
+	background-color: #838080;
+  overflow: hidden;
+}
+.urlove{
+	width: 100%;
+
+}
+
+.nav{
+	width: 100%;
+	height: 75rpx;
+	display: flex;
+	flex-direction: row;
+	line-height: 75rpx;
+	font-size: 32rpx;
+	background-color: #FFFFFF;
+	color: #999;
+
+}
+.nav view{
+	width: 50%;
+	text-align: center;
+
+}
+
+.piclove{
+	width: 36rpx;
+	height: 36rpx;
+	margin-left: 5rpx;
+	vertical-align:middle;
+	margin-bottom: 10rpx;
+}
+.pictopic{
+	width: 38rpx;
+	height: 38rpx;
+	vertical-align:middle;
+	margin-bottom: 10rpx;
+	margin-left: 3rpx;
+}
+.chosed{
+	color:#000000;
+  	
+
+}
+.line{
+	width: 100%;
+	height: 10rpx;
+	display: flex;
+	flex-direction: center;
+	background-color: #F2F2F2;
+}
+.line_l{
+	width: 375rpx;
+}
+.line_r{
+	width: 375rpx;
+}
+#line_chosed{
+	width: 142rpx;
+	margin:0 auto;
+	background-color: #FEB203;
+}

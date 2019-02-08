@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "releasenews":"/components/releasenews/releasenews",
+    "releasetext":"/components/releasetext/releasetext"
+  }
+}

@@ -1,0 +1,14 @@
+<view class="page">
+	<headerReturn></headerReturn>
+	<input placeholder="请输入标题（十五字以内）" maxlength="15" class="title" bindinput="gettitle"/>
+	<view class="shareview">
+	<textarea  placeholder="分享新鲜趣事（五千字以内）" maxlength="3000"  class="share" bindinput="getcontent"/>
+	</view>
+	<view class="piczone">
+		<view wx:for="{{photosrc}}">
+			<image src="{{item}}"/>
+		</view>
+		<view class="photo" id="{{hide}}" bindtap="chooseImageUpload">+</view>
+	</view>
+	<button class="btn-re" bindtap="releaseLove">发布</button>
+</view>

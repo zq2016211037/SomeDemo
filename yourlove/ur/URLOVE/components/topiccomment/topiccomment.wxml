@@ -1,0 +1,14 @@
+<view class="cta-detail">
+	<image class="cta-detail-img" src="{{userHead}}" bindtap="gourl"/>
+	<view class="status">
+		<view class="status-sta">
+		    <view class="cta-detail-name">{{userName}}</view>
+		    <view class="zan-status">
+			    <image class="cta-detail-zan" src="/images/HotSearch/zanlogo.png"/>
+			    <view class="cta-detail-zannum">{{applaudNum}}</view>
+		    </view>
+	    </view>
+		<view class="cta-ctacp-ta">{{contents}}</view>
+	</view>
+</view>
+<view class="thread"></view>

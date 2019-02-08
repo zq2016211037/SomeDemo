@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "chatInput":"/components/chatInput/chatInput"
+  }
+}

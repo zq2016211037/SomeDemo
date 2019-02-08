@@ -1,0 +1,18 @@
+<view class="hotSearchnews">
+	<view class="newsleft">
+		<view class="titleandicon">
+			<text class="title">这是大标题\n</text>
+			<image class="icon" src="/images/urlove/love.png"></image>
+		</view>
+		<text class="abstract">除了对效果的实现，我会仔细学习原作者的代码并分析，对其中的解决思路 </text>
+		<view class="userandlogo">
+			<image class="userhead" src="/images/HotSearch/head.jpg"></image>
+			<text class="username">这是用户名</text>
+			<image class="zanlogo" src="/images/HotSearch/zanlogo.png"></image>
+			<text class="zannum">666</text>
+		</view>
+	</view>
+	<view class="newsright">
+		<image class="pic" src="/images/HotSearch/pic.png"></image>
+	</view>
+</view>

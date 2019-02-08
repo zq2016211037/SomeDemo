@@ -1,0 +1,8 @@
+<page>
+	<headerReturn></headerReturn>
+  <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px" bindscrolltolower="lower">
+     <view wx:for="{{fansList}}" wx:key="{{index}}" class='fansLists' bindtap="showDetail">
+    <focusItem userLogo='{{item.avatarUrl}}' userName='{{item.nickName}}' focusTime="{{item.followDate}}"></focusItem> 
+  </view>
+  </scroll-view>
+</page>

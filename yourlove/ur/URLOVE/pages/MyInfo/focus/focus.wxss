@@ -1,0 +1,13 @@
+/* pages/focus/focus.wxss */
+headerReturn.headTop{
+  position: fixed;
+  width: 100%;
+  height: 128rpx;
+  padding: 0;
+  z-index: 1000;  
+  top: 0;
+  left: 0; 
+}
+scroll-view{
+  padding-top:149rpx;
+}

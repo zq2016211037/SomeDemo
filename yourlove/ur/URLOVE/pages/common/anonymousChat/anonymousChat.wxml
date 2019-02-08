@@ -1,0 +1,7 @@
+<page>
+  <headerReturn></headerReturn>
+  <view class="content">
+    <allChatBars wx:for="{{messagequeue}}" chatWords="{{item.content}}" judge="{{item.judge}}" />
+  </view>
+  <chatInput bind:myevent="getMessageArray" matchUser="{{matchUser}}"></chatInput>
+</page>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "hotSearchBar":"/components/hotSearchBar/hotSearchBar",
+    "headerempty": "/components/headerempty/headerempty"
+  }
+}

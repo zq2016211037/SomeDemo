@@ -1,0 +1,94 @@
+.clearboth{clear:both}
+
+.mycomment{
+	height: 281rpx;
+	width: 100%;
+	border-bottom: 5px solid #EEEEEE;
+}
+
+.userandtime{
+
+	float: left;
+	margin-top: 20rpx;
+	margin-left: 38rpx;
+}
+
+.userhead{
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	float: left;
+}
+.nameandtime{
+	float: left;
+	margin-top: 2rpx;
+}
+.username{
+	color: #333333;
+	font-size: 25rpx;
+	font-family: 苹方;
+	margin-left: 14rpx;
+}
+.time{
+	color: #989898;
+	font-size: 13rpx;
+	font-family: 苹方;
+	margin-left: 14rpx;
+
+}
+
+.replybutton{
+	width: 60rpx;
+	height: 39rpx;
+	font-size: 16rpx;
+	color: #999999;
+	text-align: center;
+	font-family: 苹方;
+	float: right;
+	border: 1px solid #999999;
+	line-height: 39rpx;
+	margin-top: 28rpx;
+	margin-right: 39rpx;
+	border-radius: 5rpx;
+}
+
+.othersreplyinfo{
+	font-size: 22rpx;
+	font-family: 苹方;
+	color: #353535;
+	margin-left: 38rpx;
+	margin-top: 12rpx;
+}
+.mynews{
+	width: 670rpx;
+
+	background-color: #EEEEEE;
+	margin: 0 auto;
+	margin-top: 8rpx;
+}
+
+.title{
+	font-size: 34rpx;
+	color: #353535;
+	font-family: 苹方;
+	float: left;
+	margin-top: 12rpx;
+	margin-left: 18rpx;
+}
+.abstract{
+	font-size: 22rpx;
+	color: #666666;
+	font-family: 苹方;
+	margin-top: 12rpx;
+	margin-left: 18rpx;
+	margin-right: 18rpx;
+	line-height: 150%;
+	padding-bottom: 18rpx;
+}
+.icon{
+	width: 30rpx;
+	height: 30rpx;
+	float: right;
+	margin-top: 12rpx;
+	margin-right: 36rpx;
+}

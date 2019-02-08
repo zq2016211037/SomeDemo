@@ -1,0 +1,29 @@
+/* components/headerReturn/headerReturn.wxss */
+.headerReturn{
+  width:100%;
+  height:130rpx;
+  color:#fff;
+  background:linear-gradient(to right,#ffb064,#ffe35a); 
+  position: fixed;
+  margin-bottom: 128rpx;
+  z-index: 99;
+}
+.prevLogo{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  font-size: 33rpx;
+  margin-left: 20rpx;
+  margin-top: 65rpx;
+}
+
+.title{
+  position: relative;
+  display: inline-block;
+  margin-left: 39rpx;
+  bottom: 15rpx;
+}
+.empty{
+  width:100%;
+  height:128rpx;
+}

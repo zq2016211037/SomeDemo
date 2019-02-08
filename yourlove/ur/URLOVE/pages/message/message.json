@@ -1,0 +1,8 @@
+{
+  "usingComponents":{
+    "comment":"/components/comment/comment",
+    "header":"/components/header/header",
+    "bottom": "/components/bottom/bottom",
+    "publish": "/components/publish/publish"
+  }
+}

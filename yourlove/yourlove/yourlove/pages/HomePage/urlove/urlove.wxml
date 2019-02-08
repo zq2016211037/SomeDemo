@@ -1,0 +1,55 @@
+<view class="page">
+	<headerReturn></headerReturn>
+	<navigator url="/pages/common/anonymousChat/anonymousChat" >
+	<view class="banner" src="">
+   <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+    <block wx:for="{{bannerList}}" wx:for-index="index">  
+      <swiper-item>  
+      <image src="{{item.picture}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item> 
+    </block>  
+    </swiper>
+	</view>
+	</navigator>
+	<view class="urlove">
+		<view class="nav">
+			<view bindtap="showlove" class="{{lovechosed}}">
+				<text>表白</text>
+				<image src="/images/urlove/topic.png" class="piclove"></image>
+				
+			</view>
+			<view bindtap="weektopic" class="{{topicchosed}}">
+				<text style="font-family: 平方;">话题</text>
+				<image src="/images/urlove/love.png" class="pictopic"></image>
+			</view>
+		</view>	
+		<view class="line">
+			<view class="line_l" id="{{linelchosed}}"></view>
+			<view class="line_r" id="{{linerchosed}}"></view>
+		</view>
+		<view class="lovecontent" wx:if="{{!navshow}}" wx:for='{{loveList}}'>   
+       <!-- loveList -->
+      <view wx:if='{{imgLen}}' data-index='{{index}}'>
+        <!-- 有图 -->
+      <urlovenews title='{{item.title}}'img='{{item.img}}' isLikeNum='{{item.isLikeNum}}' avatarUrl='{{item.avatarUrl}}' createTime='{{item.createTime}}'content='{{item.content}}'nickName='{{item.nickName}}' psgId='{{item.loveId}}' likeVerdict = '{{item.likeVerdict}}' userId='{{userId}}' userToken='{{userToken}}'></urlovenews>
+       </view> 
+       <view wx:if='!{{imgLoveLen}}' data-index='{{index}}' bindtap='{{showDetailLove}}'>
+          <!-- 无图 -->
+      <urlovetext title='{{item.title}}' isLikeNum='{{item.isLikeNum}}' avatarUrl='{{item.avatarUrl}}' createTime='{{item.createTime}}'content='{{item.content}}'nickName='{{item.nickName}}' pageViewNum='{{item.pageViewNum}}' psgId='{{item.loveId}}'likeVerdict = '{{item.likeVerdict}}' userId='{{userId}}' userToken='{{userToken}}'></urlovetext> 
+        </view>  
+		</view>
+    <!-- loveList end -->
+
+    <!-- topicList start -->
+		<view class="topiccontent" wx:if="{{navshow}}" wx:for='{{topicList}}'>
+
+      <view wx:if='{{imgTopicLen}}'>
+        
+          <topicnews title='{{item.title}}'img='{{item.img}}' isLikeNum='{{item.isLikeNum}}' avatarUrl='{{item.userAvatarUrl}}' createTime='{{item.createTimeToShow}}'content='{{item.content}}'nickName='{{item.userName}}' psgId='{{item.topicId}}' topicType='{{topicType}}' userId='{{userId}}' userToken='{{userToken}}' likeVerdict = '{{item.likeVerdict}}'></topicnews>
+      </view>
+      <view wx:if='!{{imgTopicLength}}'>
+          <topictext title='{{item.title}}' isLikeNum='{{item.isLikeNum}}' avatarUrl='{{item.userAvatarUrl}}' createTime='{{item.createTimeToShow}}'content='{{item.content}}'nickName='{{item.userName}}' pageViewNum='{{item.pageViewNum}}' psgId='{{item.topicId}}' topicType='{{topicType}}' userId='{{userId}}' userToken='{{userToken}}' likeVerdict = '{{item.likeVerdict}}'></topictext> 
+      </view>
+		</view>	
+  </view>
+</view>

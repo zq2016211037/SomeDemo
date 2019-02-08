@@ -1,0 +1,50 @@
+/* components/archive/archives.wxss */
+.archive{
+  /*margin: 11rpx 0;*/
+  border-bottom: 10rpx solid #f2f2f2;
+  padding: 15rpx 32rpx 15rpx 32rpx;
+  background: #fff;
+}
+.title{
+  height: 94rpx;
+  font-size: 34rpx;
+  line-height: 94rpx;
+  font-weight: bold;
+  margin-top: -20rpx;
+}
+.psg{
+  color: #666666;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+.userInfo{
+  color: #b2b2b2;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.userInfo image{
+  width: 32rpx;
+  height: 32rpx;
+  /* line-height: 32rpx; */
+  border-radius: 16rpx;
+   margin: 0 10rpx; 
+}
+.userInfo_left{
+  vertical-align: center;
+  line-height: 60rpx;
+}
+.userInfo_left image{
+  margin-top: 10rpx;
+}
+.userInfo_right{
+  position: relative;
+  vertical-align: center;
+}
+.userInfo_right image{
+   width: 40rpx; 
+   height: 40rpx;   
+}
+.userInfo_right label{
+  line-height: 40rpx;
+}

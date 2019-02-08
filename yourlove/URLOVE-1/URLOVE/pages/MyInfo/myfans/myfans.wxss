@@ -1,0 +1,4 @@
+.myfans{
+  height:70rpx;
+  position:relative;
+}

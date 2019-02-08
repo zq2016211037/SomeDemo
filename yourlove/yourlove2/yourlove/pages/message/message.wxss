@@ -1,0 +1,48 @@
+/* pages/msg/msg.wxss */
+#wrapMsg{
+  height: 1334rpx;
+  margin-top: 23rpx;
+  background: #f2f2f2;
+}
+.navsTitle{
+  position: relative;
+  height: 133rpx;
+  padding-left: 177rpx;
+  padding-right: 100rpx;
+   display: flex; 
+  align-items: center;
+  background: #fff;
+  margin: 11rpx 0;
+}
+.navsTitle .left{
+  width: 177rpx;
+  height: 133rpx;
+  float: left;
+  margin-left: -177rpx;
+}
+.navsTitle .left image{
+  width: 80rpx;
+  height:80rpx;
+  border-radius: 40rpx;
+  padding: 27rpx 49rpx 26rpx 48rpx;
+}
+.navsTitle text{
+  width: 100%;
+  display: block;
+  float: left;
+  font-size: 32rpx;
+  line-height: 133rpx;
+}
+.navsTitle .navi{
+  width: 100rpx;
+  display: block;
+  font-size: 48rpx;
+   /* float: right;  */
+  margin-right: -100rpx;
+}
+ #wrapMsg view.navsTitle .details{
+  width: 60rpx;
+  height: 60rpx;
+  position:relative;
+  left:75rpx;
+} 

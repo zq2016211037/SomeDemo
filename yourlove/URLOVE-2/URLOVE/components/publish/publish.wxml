@@ -1,0 +1,33 @@
+<view class="showWrap" wx:if="{{isShow}}">
+  <view class="publish">
+    <view class="publishNav">
+      <view>
+        <image id="love" bindtap="sendlove" src="/images/tab_icon/express.png" />
+        <text>表白</text>
+      </view>
+      <view>
+        <image id="topic" bindtap="sendothers" src="/images/tab_icon/topic.png" />
+        <text>每周话题</text>
+      </view>
+      <view>
+        <image id="experience" bindtap="sendothers" src="/images/tab_icon/experience.png" />
+        <text>心得</text>
+      </view>
+       <view>
+        <image id="advertise" bindtap="sendothers" src="/images/tab_icon/advertise.png" />
+        <text>招聘</text>
+      </view>
+      <view>
+        <image id="trade" bindtap="sendothers" src="/images/tab_icon/transaction.png" />
+        <text>二手交易</text>
+      </view>
+      <view>
+        <image id="help" bindtap="sendothers" src="/images/tab_icon/help.png" />
+        <text>帮忙</text>
+      </view>
+    </view>
+    <view class="close" bindtap='close'>
+      <image src="/images/tab_icon/close.png" />
+    </view>
+  </view>
+</view>

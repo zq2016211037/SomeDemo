@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header": "/components/header/header",
+    "hotSearchBar":"/components/hotSearchBar/hotSearchBar",
+    "bottom": "/components/bottom/bottom",
+    "publish": "/components/publish/publish"
+  }
+}

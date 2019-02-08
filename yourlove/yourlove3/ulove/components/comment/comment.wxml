@@ -1,0 +1,16 @@
+<!--component/comment/comment.wxml-->
+<view id='comment' class='comment' bindtap="gourl">
+  <view class='commentItem'>
+    <view class='left'>
+      <image src='{{userLogo}}'></image>
+    </view>
+    <view class='msgs'>
+      <view class='userName'>{{userName}}</view>
+      <view class='userLastMsg'>{{userLastMsg}}</view>
+    </view>
+    <view class='hint' bindtap='naviUrl'>
+      <view class='chatTime'>{{chatTime}}</view>
+      <view class='unread'><label>{{unread}}</label></view>
+    </view>
+  </view>
+</view>

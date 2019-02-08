@@ -1,0 +1,13 @@
+<view class="chatWrapper">
+    <view class="bottom" style="bottom:{{inputBottom}}">
+      <textarea fixed bindblur='getcontentValue' value="{{content}}" cursor-spacing='20' show-confirm-bar="" />
+      <image src="/images/chat/smile.png" bindtap="showEmoji" focus="true"></image>
+      <image src="/images/chat/enter.png" bindtap="sendComment"></image>
+    </view>
+    <scroll-view scroll-y class="wrapper" wx:if="{{emojiShow}}">
+      <view wx:for="{{emoji}}" wx:key="{{index}}" id="{{index}}" bindtap='choseEmoji'>
+        {{item}}
+      </view>
+    </scroll-view>
+</view>
+

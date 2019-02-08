@@ -1,0 +1,114 @@
+.cta-detail{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-bottom: 37rpx;
+	 overflow-wrap: break-word;
+  /* padding:0 37rpx 0 0; */
+}
+
+.cta-detail-img{
+	width:80rpx;
+	height: 70rpx;
+	border-radius: 50%;
+	margin-left: 30rpx;
+}
+
+.status{
+	width: 620rpx;
+	margin-left: 22rpx;
+	margin-right: 10rpx;
+}
+
+.status-sta{
+	width: 691rpx;
+	height:23rpx;
+	display: flex;
+	flex-direction: row;
+}
+
+.cta-detail-zan{
+	width: 80rpx;
+	height: 65rpx;
+	background-color: #f2f2f2;
+	margin-top: -10rpx;
+}
+
+.cta-detail-name{
+	font-size: 34rpx;
+	height: 40rpx;
+  line-height: 40rpx;
+	color: #666666;
+}
+.zan-status{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	right:43rpx;
+}
+
+.commentarea{
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+}
+
+.cta-detail-zannum{
+	height: 30rpx;
+	font-size: 30rpx;
+	color:#b2b2b2;
+}
+
+.cta-ctacp-ta{
+	margin-top: 34rpx;
+  font-size: 26rpx;
+  line-height: 46rpx;
+  color: #353535;
+  margin-right: 37rpx; 
+}
+.cta-top{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40rpx;
+  margin-right: 22rpx;
+	margin-top: 40rpx;
+	/* margin-bottom: 40rpx; */
+}
+
+.cta-top-right{
+	position: absolute;
+	right: 40rpx;
+}
+
+.Pheart{
+	position: absolute;
+	right: 40rpx;
+	margin-top: 28rpx;
+	width: 33rpx;
+	height: 36rpx;
+}
+
+.cplusimag{
+	margin-left: 18rpx;
+	width: 75rpx;
+	height: 75rpx;
+  padding: 12.5rpx 0;
+}
+
+.cbiaoqing{
+	margin-left: 19rpx;
+	width: 75rpx;
+	height: 75rpx;
+  padding: 12.5rpx 0;
+}
+
+.thread{
+/* width:85%; */
+background-color:lightgray;
+height:1px;
+margin-bottom:20rpx;
+margin:20rpx auto;
+margin-left: 121rpx;
+margin-right: 40rpx;
+}

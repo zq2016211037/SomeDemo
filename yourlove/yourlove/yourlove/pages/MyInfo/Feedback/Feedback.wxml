@@ -1,0 +1,6 @@
+<view class="page">
+	<headerReturn></headerReturn>
+	<input placeholder="请输入标题" class="title"/>
+	<textarea  placeholder="请输入反馈意见" class="advice"/>
+	<button class="btn">提交反馈</button>
+</view>

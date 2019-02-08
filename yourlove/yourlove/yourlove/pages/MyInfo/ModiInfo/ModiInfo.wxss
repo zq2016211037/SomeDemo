@@ -1,0 +1,49 @@
+.InfoItem{
+	height: 90rpx;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: #ffffff;
+}
+
+.page{
+	background: #F2F2F2;
+	width: 750rpx;
+	height: 1334rpx;
+}
+
+.InfoItem1{
+	margin-top:40rpx;
+
+}
+
+.InfoItem2{
+	margin-top:40rpx;
+}
+
+.InfoItem3{
+	margin-top:40rpx;
+}
+
+.InfoItem-name{
+	width: 136rpx;
+	font-size: 32rpx;
+	/*padding-left: 40rpx;
+	padding-top: 27rpx;
+	padding-bottom: 31rpx;
+	margin-bottom: 1rpx;*/
+	background: white;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+}
+
+.InfoItem-white{
+	background:white;
+	width: 715rpx;
+	margin-bottom: 1rpx;
+	padding-left: 15rpx;
+	height: 90rpx;
+	font-size: 28rpx;
+	line-height: 90rpx;
+}

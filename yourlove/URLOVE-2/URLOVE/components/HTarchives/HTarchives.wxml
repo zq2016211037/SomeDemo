@@ -1,0 +1,25 @@
+<!--components/HTarchives/HTarchives.wxml-->
+ <!-- <navigator url="/pages/common/ContentDetail/ContentDetail?topicdId="+{{topicdId}}>  -->
+<navigator url="/pages/common/ContentDetail/ContentDetail?psgId={{psgId}}&topicType={{topicType}}">
+<view class='HTarchives' bindtap='showDetail'>
+  <view class='title'>{{title}}</view>
+  <!-- 图片内容 -->
+   <view class='psg'> 
+   <image src='{{img}}'></image>
+    <!-- <image src='{{item.imgUrl}}'></image> -->
+   </view> 
+  <view class='userInfo'>
+    <view class='userInfo_left' catchtap="mifo">
+      <image src='{{userLogo}}'></image>
+      <label>{{userName}}</label>
+    </view>
+    <view class='userInfo_right'>
+      <!-- <image src='/images/yousuozhi/like.png'></image>
+      <label>{{isLikeNum}}</label> -->
+      <giveLike isLikeNum='{{isLikeNum}}' userId='{{userId}}' userToken='{{userToken}}' likeVerdict='{{likeVerdict}}' psgId='{{psgId}}'></giveLike>
+      <image src='/images/yousuozhi/comment.png'></image>
+      <label>{{repliesNum}}</label>
+    </view>
+  </view>
+</view>
+ </navigator> 

@@ -1,0 +1,60 @@
+.HTarchives{
+  /*margin: 11rpx 0;*/
+  padding: 15rpx 30rpx 15rpx 30rpx;
+  margin-bottom: 10rpx;
+  background: #fff;
+  height: 250rpx;
+}
+.title{
+  margin-left: 10rpx;
+  font-size: 34rpx;
+  font-weight: bolder;
+
+}
+.psg{
+  color: #8D8C8C;
+  font-size: 24rpx;
+  line-height: 64rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.psg image{
+  width: 210rpx;
+  height: 150rpx;
+  margin: 10rpx;
+}
+.userInfo{
+  color: #b2b2b2;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.userInfo_left image{
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 16rpx;
+  margin: 0 10rpx;
+}
+.userInfo_left{
+ float: left;
+  vertical-align: center;
+}
+.userInfo_right{
+  vertical-align: center;
+  float: right;
+  display: flex;
+}
+.userInfo_right label{
+  display: inline-block;
+  width: 50rpx;
+}
+.userInfo_right label{
+  display: inline-block;
+  width: 50rpx;
+}
+.userInfo_right image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 25rpx;
+  margin-right: 5rpx;
+}

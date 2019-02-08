@@ -1,0 +1,30 @@
+.otherschatBar{
+  display: flex;
+  padding:10rpx 40rpx 10rpx 40rpx; 
+  float:right;
+}
+.chatPhoto{
+  width:80rpx;
+  height:80rpx;
+}
+.chatWords{
+  border:2rpx solid #E7E7E7;
+  border-radius:20rpx;
+  background-color: #ffffff;
+  font-size:27rpx;
+  letter-spacing: 1rpx;
+  padding:15rpx 15rpx 10rpx 15rpx;
+  max-width: 400rpx;
+  margin-right: 30rpx;
+}
+.otherschatBar .tan{
+  width:18rpx;
+  height:18rpx;
+  background-color: #ffffff;
+  transform:rotate(45deg);
+  margin-top:15rpx;
+  position: absolute;
+  right:142rpx;
+  border-top:2rpx solid #E7E7E7;
+  border-right:2rpx solid #E7E7E7;
+}

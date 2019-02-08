@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "allChatBars": "/components/allChatBars/allChatBars",
+    "chatInput":"/components/chatInput/chatInput"
+  }
+}

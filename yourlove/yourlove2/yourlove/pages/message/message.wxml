@@ -1,0 +1,19 @@
+<header></header>
+<view id='wrapMsg'>
+  <!-- <item id="item" itemLogo="../../image/msg.png" itemName="评论"></item>
+   -->
+   <view class="navsTitle" wx:for="{{navLists}}" wx:key="{{index}}" bindtap='naviUrl' data-index="{{index}}">
+      <view class='left'>
+        <image src='{{item.navLogo}}'></image>
+      </view>   
+      <text>{{item.navName}}</text>
+      <image src='/images/Message/details.png' class='details'></image>
+   </view>
+
+   <!-- comment -->
+   <view wx:for="{{commentLists}}" wx:key="{{index}}">
+   <!-- 评论消息列表 -->
+    <comment userLogo='{{item.userLogo}}' userName='{{item.userName}}' userLastMsg='{{item.userLastMsg}}' chatTime="{{item.chatTime}}" unread='{{item.unread}}'></comment> 
+   </view>
+</view>
+<bottom choseId="3"></bottom>

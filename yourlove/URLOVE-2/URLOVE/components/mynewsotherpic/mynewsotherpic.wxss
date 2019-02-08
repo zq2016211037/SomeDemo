@@ -1,0 +1,81 @@
+.hotSearchnews{
+	background-color: #FFFFFF;
+	border-bottom: 10rpx solid #F2F2F2;
+	width: 100%;
+	height: 240rpx;
+	color:#3E3E3E;
+	display: flex;
+	flex-direction: row;
+
+}
+.newsleft{
+	margin-top: -15rpx;
+	width: 450rpx;
+	display: flex;
+	flex-direction: column;
+}
+.title{
+	font-size: 34rpx;
+	font-weight: bolder;
+	margin-top: 40rpx;
+	margin-left: 40rpx;
+}
+.abstract{
+	font-size: 24rpx;
+	color: #8D8C8C;
+	margin-left: 40rpx;
+	height: 80rpx;
+	width: 320rpx;
+	margin-top: -10rpx;
+	line-height: 180%;
+}
+.userandlogo{
+	margin-left: 40rpx;
+	/*margin-top: 23rpx;*/
+	
+}
+.userhead{
+	width: 30rpx;
+	height: 30rpx;
+	border-radius: 50%;
+}
+.username{
+	font-size: 24rpx;
+	color: #B4B3B3;
+	margin-left: 8rpx;
+
+}
+.zanlogo{
+	width: 50rpx;
+	height: 50rpx;
+	/*margin-left: 136rpx;
+	margin-top: 8rpx;*/
+}
+.zannum{
+	font-size: 24rpx;
+	color: #B4B3B3;
+	margin-left: 8rpx;
+	margin-top: 3rpx;
+}
+.newsright{
+	width: 300rpx;
+}
+.pic{
+	width: 250rpx;
+	height: 180rpx;
+	float: right;
+	margin-top: 30rpx;
+	margin-right: 40rpx;
+}
+.icon{
+	width: 35rpx;
+	height: 35rpx;
+	margin-top: -60rpx;
+	margin-right: 40rpx;
+}
+.middle{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20rpx;
+	justify-content: space-between;
+}

@@ -1,0 +1,78 @@
+<headerReturn></headerReturn>
+<view class="page">
+	<view class="title" wx:if='{{loveContentDetails}}'>
+		{{loveContentDetails.title}}
+	</view>
+  <view class='article'>
+    <view class="Pinfo">
+      <!-- <navigator class="Pinfo1" url="/pages/common/myinfofromothers/myinfofromothers"> -->
+          <image class="Pimg" src="{{loveContentDetails.avatarUrl}}" bindtap='gotoOther'/>
+      <view class="Pnas">
+        <view class="Pname">{{loveContentDetails.nickName}}</view>
+        <view class="Psign">{{loveContentDetails.createTime}}</view>
+      </view>
+<!--       </navigator> -->
+      <image class="Pheart" src="/images/HotSearch/searchBarIcon1.png"/>
+    </view>
+    <view class="contentout">
+      <view class="contentd">
+        {{loveContentDetails.content}}
+      </view>
+      <view class="VP1" wx:if="{{Pnum1}}" class='par'>
+        <image class="P1" src="{{loveContentDetails.img[0]}}" bindtap='showDetail'/>
+      </view>
+      <view wx:if="{{Pnum2}}" class='par'>  
+        <view class="P2row1" wx:for='{{loveContentDetails.img}}'>
+          <image class="P2r" src="{{item}}" bindtap='showDetail'/>
+        </view>
+      </view>
+      <view wx:if="{{Pnum3}}" class='par'>
+        <view class="P9row1" wx:for="{{loveContentDetails.img}}">
+          <image class="P9" src="{{item}}" bindtap='showDetail' data-index='{{index}}'/>
+        </view>
+        <view wx:if='{{touchImg}}'>
+          <image class='showbig' src='{{showBig}}'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+	<!-- <view class="cta-top">
+			<view class="cta-top-left">
+				邮你留言
+			</view>
+			<view class="cta-top-right">
+				写留言
+			</view>
+	</view>
+	<view class="cta-detailout" wx:for="{{ctalist}}">
+		<view class="cta-detail">
+			<image class="cta-detail-img" src="/images/HotSearch/head.jpg" bindtap="gourl"/>
+			<view class="status">
+				<view class="status-sta">
+					<view class="cta-detail-name">{{item.userName}}</view>
+				<view class="zan-status">
+					<image class="cta-detail-zan" src="/images/HotSearch/zanlogo.png"/>
+					<view class="cta-detail-zannum">{{item.applaudNum}}</view>
+		    	</view>
+	    	</view>
+			<view class="cta-ctacp-ta">{{item.contents}}</view>
+			</view>
+		</view>
+			<view class="thread"></view>
+	</view>
+	<view id="input" class="{{_num == 1?'hide':'show'}}">
+  <view class="chatWrapper">
+    <view class="bottom" style="bottom:{{inputBottom}}">
+      <textarea fixed bindblur='getcontentValue' value="{{content}}" cursor-spacing='20' show-confirm-bar="" />
+      <image src="/images/chat/smile.png" bindtap="showEmoji" focus="true"></image>
+      <image src="/images/chat/enter.png" bindtap="sendComment"></image>
+    </view>
+    <scroll-view scroll-y class="wrapper" wx:if="{{emojiShow}}">
+      <view wx:for="{{emoji}}" wx:key="{{index}}" id="{{index}}" bindtap='choseEmoji'>
+        {{item}}
+      </view>
+    </scroll-view>
+  </view>
+  </view> -->
+</view>

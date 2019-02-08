@@ -1,0 +1,89 @@
+
+.banner{
+	width: 750rpx;
+	background: #E0D9D9;
+	height: 346rpx;
+}
+.banner image{
+  width: 100%;
+}
+.main_option{
+	
+	width: 750rpx;
+    display: flex;
+  	align-items: center;
+  	flex-direction: column;
+  	font-family: 苹方;
+}
+.back{
+	position: absolute;
+	z-index: -2;
+	background: #FFCC99;
+	opacity: 0.14;
+	width: 750rpx;
+	height: 763rpx;
+}
+.uchoose{
+	background: #FFFFFF;
+	width: 671rpx; 
+	border-radius: 20rpx;
+	height: 188rpx;
+	float: left;
+  	display: flex;
+	align-items: center;
+	
+}
+.ulove{
+	margin-top: 61rpx;
+	z-index: 1;
+}
+.uget{
+	margin-top: 38rpx;
+	margin-bottom: 38rpx;
+	z-index: 1;
+}
+.uvalue{
+	margin-bottom: 58rpx;
+	z-index: 1;
+}
+#backbg{
+	width: 671rpx;
+	height: 188rpx;
+	position: absolute;
+	z-index: -1;
+	border-radius: 20rpx;
+
+}
+.bg{
+	background:linear-gradient(to right,#ffe35a,#ffb064); 
+	opacity: 0.3;
+}
+
+.pic1{
+	width: 140rpx;
+	height: 128rpx;
+	float: left;
+	margin-left: 20rpx;
+}
+.pic2{
+	width: 125rpx;
+	height: 123rpx;
+	float: left;
+	margin-left: 20rpx;
+	margin-right: 15rpx;
+}
+.pic3{
+	width: 115rpx;
+	height: 131rpx;
+	float: left;
+	margin-left: 23rpx;
+	margin-right: 23rpx;
+}
+.text1{
+	font-size: medium;
+
+}
+.text2{
+	font-size: 13px;
+	color: #C1B6B6;
+}

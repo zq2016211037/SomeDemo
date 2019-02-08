@@ -1,0 +1,20 @@
+<view class="mycomment">
+	<view class="userandtime">
+		<image class="userhead" src="/images/HotSearch/head.jpg"></image>
+		<view class="nameandtime">
+			<view class="username">Mch</view>
+			<view class="time">20:08</view>
+		</view>
+	</view>
+	<view class="replybutton">回复</view>
+	<view class="clearboth"></view>
+	<view class="othersreplyinfo">
+		赞了这条消息</view>
+	<view class="mynews">
+			<view class="title">寻找土木三班陈同学</view>
+			<image class="icon" src="/images/HotSearch/searchBarIcon2.png"></image>
+			<view class="clearboth"></view>
+			<view class="abstract">打击好我是来自艺设三班的陈美屹，请问同学门有认识土木三班的XXX吗？我觉得他真的好贱啊啊啊啊，我的联系方式是</view>
+	</view>
+</view>
+<view class="clearboth"></view>

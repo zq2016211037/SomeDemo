@@ -1,0 +1,4 @@
+<view class="inputview">
+	<textarea class="inputarea" placeholder="回复"></textarea>
+	<button class="submit">发送</button>
+</view>

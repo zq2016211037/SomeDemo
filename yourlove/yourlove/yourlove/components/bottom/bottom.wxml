@@ -1,0 +1,33 @@
+  <view class="bottom">
+    <view class="tabbarnav" id="0" bindtap="changeStyle">
+      <image wx:if="{{chose[0]}}" src="/images/tab_icon/icon1_choose.png"/>
+      <image wx:else src="/images/tab_icon/icon1.png" />
+      <view wx:if="{{chose[0]}}" style="color:#ffb000">首页</view>
+      <view wx:else style="color:#cbcbcb">首页</view>
+    </view>
+    <view class="tabbarnav"  id="1" bindtap="changeStyle">
+      <image wx:if="{{chose[1]}}" src="/images/tab_icon/icon2_choose.png"/>
+      <image wx:else src="/images/tab_icon/icon2.png" />
+      <view wx:if="{{chose[1]}}" style="color:#ffb000">热搜</view>
+      <view wx:else style="color:#cbcbcb">热搜</view>
+    </view>
+
+    <view class="publish" bindtap="showFb">
+      <image wx:if="{{publishStyle}}" src="/images/tab_icon/icon5_choose.png"/>
+      <image wx:else src="/images/tab_icon/icon5.png" />
+      <view style="color:#cbcbcb">发布</view>
+    </view>
+    <view class="tabbarnav"  id="3" bindtap="changeStyle">
+      <image wx:if="{{chose[3]}}" src="/images/tab_icon/icon3_choose.png"/>
+      <image wx:else src="/images/tab_icon/icon3.png" />
+      <view wx:if="{{chose[3]}}" style="color:#ffb000">消息</view>
+      <view wx:else style="color:#cbcbcb">消息</view>
+    </view>
+    <view class="tabbarnav" id="4" bindtap="changeStyle">
+      <image wx:if="{{chose[4]}}" src="/images/tab_icon/icon4_choose.png"/>
+      <image wx:else src="/images/tab_icon/icon4.png"/>
+      <view wx:if="{{chose[4]}}" style="color:#ffb000">我的</view>
+      <view wx:else style="color:#cbcbcb">我的</view>
+    </view>
+  </view>
+  <publishNav isShow="{{ifpublish}}"></publishNav>

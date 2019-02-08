@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/HomePage/HomePage",
+    "pages/HomePage/urlove/urlove",
+    "pages/message/MyComment/MyComment",
+    "pages/publish/release/release",
+    "pages/MyInfo/releaselist/releaselist",
+    "pages/common/myinfofromothers/myinfofromothers",
+    "pages/message/myzan/myzan",
+    "pages/MyInfo/myfans/myfans",
+    "pages/hotSearch/hotSearch",
+    "pages/common/zan/zan",
+    "pages/MyInfo/ModiInfo/ModiInfo",
+    "pages/MyInfo/MyInfo",
+    "pages/message/message",
+    "pages/common/anonymousChat/anonymousChat",
+    "pages/MyInfo/Feedback/Feedback",
+    "pages/MyInfo/briefInstru/briefInstru",
+    "pages/HomePage/help_trade/help_trade",
+    "pages/MyInfo/focus/focus",
+    "pages/HomePage/Zp_Xd/Zp_Xd",
+    "pages/publish/releaseothers/releaseothers",
+    "pages/common/ContentDetail/ContentDetail",
+    "pages/common/loveDetail/ContentDetail",
+    "pages/common/moreinfo/moreinfo",
+    "components/chatInput/chatInput"
+  ],
+  "window": {
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#cccccc",
+    "enablePullDownRefresh": true,
+    "navigationStyle": "custom"
+  }
+}

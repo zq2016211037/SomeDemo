@@ -1,0 +1,67 @@
+<view class="page">
+<header></header>
+<view class="zt">
+	<view class="top">
+		<view class="top-headimg">
+			<image class="top-headimg-src" src="{{userhead}}"></image>
+		</view>
+		<view class="top-xinxi">
+			<view class="top-xinxi-nameandqiandao">
+				<view class="top-xinxi-name">{{name}}</view>
+				<view class="qiandao">+ 签到</view>
+			</view>
+			<view class="top-xinxi-brief">简介：{{brief}}</view>
+			<view class="pbglv">
+			<view class="pbgtext">等级：{{level}}</view>
+			<view class="pbg" style="width: 330rpx;height: 27rpx; background-color:white; border-radius: 17rpx;border-color: #ff9900;border-style: solid;border-width: 1rpx;margin-right: 35rpx;"><view class="pfbg" style="width: {{experience}}rpx;height: 27rpx;background:linear-gradient(to right,#ffb064,#ffe35a); border-radius: 17rpx;margin-right: 35rpx;"></view></view>
+			</view>
+		</view>
+	</view>
+	<view class="middle">
+		<navigator url="/pages/MyInfo/releaselist/releaselist" class="middle-release">
+			<view class="middle-vartype">{{release}}</view>
+			<view class="middle-texttype">发布</view>
+		</navigator>
+		<view bindtap="tofocus" class="middle-follow">
+			<view class="middle-vartype">{{follow}}</view>
+			<view class="middle-texttype">关注</view>
+		</view>
+		<view class="middle-Fans" bindtap='tofans'>
+			<view class="middle-vartype">{{fans}}</view>
+			<view class="middle-texttype">粉丝</view>
+		</view>
+	</view>
+	<view class="bottom">
+		<navigator url="/pages/MyInfo/ModiInfo/ModiInfo">
+		<view class="bottom-info" >
+			<image style="width: 60rpx;height: 60rpx; float: left; margin: 17rpx 0 0 30rpx;" src="/images/MyInfo/myinfo.png"/>
+			<view class="bottom-texttype">修改资料</view>
+		</view>
+		</navigator>
+
+		<view class="bottom-lv">
+			<image style="width: 60rpx;height: 60rpx; float: left; margin: 17rpx 0 0 30rpx;" src="/images/MyInfo/level.png"/>
+			<view class="bottom-texttype">我的等级</view>
+		</view>
+		<view class="bottom-integral">
+			<image style="width: 60rpx;height: 60rpx; float: left; margin: 17rpx 0 0 30rpx;" src="/images/MyInfo/level.png"/>
+			<view class="bottom-texttype">我的积分</view>
+		</view>
+
+		<navigator url="/pages/MyInfo/Feedback/Feedback">
+		<view class="bottom-advice">
+			<image style="width: 60rpx;height: 60rpx; float: left; margin: 17rpx 0 0 30rpx;" src="/images/MyInfo/suggest.png"/>
+			<view class="bottom-texttype">反馈意见</view>
+		</view>
+		</navigator>
+		<navigator url="/pages/MyInfo/briefInstru/briefInstru">
+		<view class="bottom-about">
+			<image style="width: 60rpx;height: 60rpx; float: left; margin: 17rpx 0 0 30rpx;" src="/images/MyInfo/aboutus.png"/>
+			<view class="bottom-texttype">关于我们</view>
+		</view>
+		</navigator>
+	</view>
+</view>
+<view class="btn" bindtap="gotolog">切换绑定</view>
+<bottom choseId="4"></bottom>
+</view>

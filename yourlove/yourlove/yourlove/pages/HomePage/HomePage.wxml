@@ -1,0 +1,40 @@
+<view catchtouchmove="false">
+	<header></header>
+	<view class="banner">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+    <block wx:for="{{bannerList}}" wx:for-index="index">  
+      <swiper-item bindtap='touchBanner'>  
+      <image src="{{item.picture}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item> 
+    </block>
+    </swiper>
+  </view>
+	<view class="main_option">
+		<view class="back"></view>
+		<view class="uchoose ulove" bindtap="changeback1">
+			<view id="backbg" bindtap="changeback1" class="{{bg1}}"></view>
+			<view><image src="/images/HomePage/ulove.png" class="pic1"></image></view>
+			<view style="margin-left: 30rpx;">
+				<text class="text1">邮所爱\n</text>
+				<text class="text2">我渴望向你索取，专属彼此的回忆</text>
+			</view>
+		</view>
+		<view class="uchoose uget" bindtap="changeback2">
+			<view id="backbg" bindtap="changeback2" class="{{bg2}}"></view>
+			<view><image src="/images/HomePage/uvalue.png" class="pic2"></image></view>
+			<view style="margin-left: 30rpx;">
+				<text class="text1">邮所值\n</text>
+				<text class="text2">我探寻路在何方，做个攻略才稳当</text>
+			</view>
+		</view>
+		<view class="uchoose uvalue" bindtap="changeback3">
+			<view id="backbg" bindtap="changeback3" class="{{bg3}}"></view>
+			<view><image src="/images/HomePage/uget.png" class="pic3"></image></view>
+			<view style="margin-left: 30rpx;">
+				<text class="text1">邮所得\n</text>
+				<text class="text2">你需要的我都有，却只差一次分享</text>
+			</view>
+		</view>
+	</view>
+	<bottom choseId="0"></bottom>
+</view>

@@ -1,0 +1,24 @@
+<navigator url="/pages/common/ContentDetail/ContentDetail?psgId={{psgId}}&topicType={{topicType}}&userId={{userId}}&userToken={{userToken}}">
+<view class="urlovetext">
+	<view class="titleandicon">
+		<text class="title">{{title}}</text>
+		<image class="icon" src="{{icon}}"></image>
+	</view>
+	<view class="abstract">{{content}}</view>
+	<view class="userandlogo">
+    <view>
+      <image class="userhead" src="{{avatarUrl}}"></image>
+      <text class="name">{{nickName}}</text>
+    </view>
+		<!-- <text class="numzan">{{isLikeNum}}</text>
+		<image class="zanlogo" src="/images/Hotsearch/zanlogo.png"></image>	 -->
+    <view class='zan_comment'>
+      <giveLike isLikeNum='{{isLikeNum}}' userId='{{userId}}' userToken='{{userToken}}' likeVerdict='{{likeVerdict}}' psgId='{{psgId}}'></giveLike>
+      <view class='comment'>
+          <image class="commentlogo" src="/images/yousuoai/comment.png"></image>
+          <text class="numcomment">{{pageViewNum}}</text>
+      </view>
+    </view>
+	</view>
+</view>
+</navigator>

@@ -1,0 +1,14 @@
+<view class='focus'>
+  <view class='focusItem' bindtap='showDetail'>
+    <view class='left'>
+      <image src='{{userLogo}}'></image>
+    </view>
+    <view class='msgs'>
+      <view class='userName'>{{userName}}</view>
+      <view class='focushint'>{{signature}}</view>
+    </view>
+    <view class='hint'>
+      <view class='focusTime'>{{focusTime}}</view>
+    </view>
+  </view>
+</view>

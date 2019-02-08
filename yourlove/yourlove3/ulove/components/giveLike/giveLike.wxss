@@ -1,0 +1,15 @@
+/* view{
+  width: 40rpx;
+  height: 40rpx;
+} */
+/* .givelike{
+	width:40rpx;
+	height:40rpx;
+} */
+.likeLogo{
+	width:45rpx;
+	height:45rpx;
+  margin-right: 9rpx;
+  color:#B4B3B3;
+  font-size: 24rpx;
+}

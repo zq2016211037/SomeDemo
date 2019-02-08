@@ -1,0 +1,21 @@
+<navigator url="/pages/common/loveDetail/ContentDetail?psgId={{psgId}}&userId={{userId}}&userToken={{userToken}}">
+
+<view class="hotSearchnews">
+	<view class="newsleft">
+		<text class="title">{{title}}</text>
+		<text class="abstract">{{content}}</text>
+		<view class="userandlogo">
+			<view catchtap="mifo">
+			<image class="userhead" src="{{avatarUrl}}"></image>
+			<view class="username">{{nickName}}</view>
+			</view>
+			<!-- <image class="zanlogo" src="/images/HotSearch/zanlogo.png"></image>
+			<view class="zannum" catchtap='givelike'>{{isLikeNum}}</view> -->
+			<giveLike isLikeNum='{{isLikeNum}}' userId='{{userId}}' userToken='{{userToken}}' likeVerdict='{{likeVerdict}}' psgId='{{psdId}}'></giveLike>
+		</view>
+	</view>
+	<view class="newsright">
+		<image class="pic" src="{{img}}"></image>
+	</view>
+</view>
+</navigator>

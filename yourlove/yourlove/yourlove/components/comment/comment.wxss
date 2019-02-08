@@ -1,0 +1,78 @@
+/* component/comment/comment.wxss */
+/* pages/msg/msg.wxss */
+
+view{
+  margin: 0;
+  padding: 0;
+}
+.comment{
+  height: 100%;
+  background: #fcfcfc;
+}
+.commentItem{
+  position: relative;
+  height: 136rpx;
+  padding-left: 177rpx;
+  padding-right: 95rpx;
+   display: flex; 
+  align-items: center;
+  background: #fff;
+  /* border: 1rpx solid #eee; */
+  margin: 11rpx 0;
+}
+.commentItem .left{
+  width: 177rpx;
+  height: 136rpx;
+  float: left;
+  margin-left: -177rpx;
+}
+.commentItem .left image{
+  width: 81rpx;
+  height: 81rpx;
+  margin: 27rpx 40rpx;
+  border-radius: 40rpx;
+}
+.commentItem .msgs{
+  width: 100%;
+  height: 100rpx;
+  display: block;
+  float: left;
+}
+.msgs .userName{
+  line-height: 47rpx;
+  font-size:32rpx;
+  /* font-weight: bold; */
+}
+.msgs .userLastMsg{
+  font-size:24rpx;
+  line-height: 40rpx;
+}
+.commentItem .hint{
+  width: 95rpx;
+  display: block;
+   font-size: 27rpx; 
+   /* float: right;  */
+   text-align: right;
+   padding-right: 40rpx;
+  margin-right: -95rpx;
+  margin-top: -10rpx;
+}
+.hint .chatTime{
+  /* 图上标的17px？？？ */
+
+}
+
+.hint .unread{
+  /* margin-left: 30rpx; */
+  font-size: 27rpx;
+}
+.hint label{
+  width: 27rpx;
+  height: 27rpx;
+  display: inline-block;
+  background: yellow;
+  margin-top: 7rpx;
+  text-align: center;
+  line-height: 27rpx;
+  border-radius: 13rpx;
+}

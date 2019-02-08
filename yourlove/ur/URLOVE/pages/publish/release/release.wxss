@@ -1,0 +1,92 @@
+.page{
+	background: #F2F2F2;
+	width: 750rpx;
+	height: 1334rpx;
+}
+
+.title{
+	width: 100%;
+	height: 60rpx;
+	margin-bottom: 20rpx;
+	margin-top: 20rpx;
+	font-size: 34rpx;
+	background-color: white;
+	padding-top: 19rpx;
+	padding-right: 40rpx;
+	padding-left: 40rpx;
+	padding-bottom: 19rpx;
+}
+.shareview{
+	width: 100%;
+	padding: 24rpx 40rpx 24rpx 40rpx;
+	background: white;
+}
+.share{
+	width: 670rpx;
+	height: 400rpx;
+	font-size: 34rpx;
+}
+
+.btn-re{
+	width: 450rpx;
+	height: 83rpx;
+	font-size: 34rpx;
+	background-color: #FFB064;
+	line-height: 83rpx;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 80rpx;
+}
+
+.nm{
+	margin-top:10rpx; 
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	height: 80rpx;
+	align-items: center;
+}
+
+.nm-tx{
+	margin-top: 19rpx;
+	/*margin-right: 40rpx;*/
+	margin-left: 40rpx;
+	margin-bottom: 19rpx;
+	font-size: 34rpx;
+	align-items: center;
+}
+
+.sw-nm{
+	margin-top: 19rpx;
+	margin-right: 40rpx;
+	margin-left: 390rpx;
+	margin-bottom: 19rpx;
+
+}
+
+.piczone{
+	width: 100%;
+	background-color: white;
+	padding-left: 40rpx;
+    padding-right: 40rpx;
+    padding-bottom: 24rpx;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo{
+	width: 220rpx;
+	height:220rpx;
+	border-radius: 5rpx;
+	background-color: #F2F2F2;
+	margin-right: 5rpx;
+}
+
+.piczone image{
+	width: 220rpx;
+	height:220rpx;
+	border-radius: 5rpx;
+	margin-right: 5rpx;
+}
+#hide{
+	display: none;
+}

@@ -1,0 +1,43 @@
+<view class="page">
+	<headerReturn></headerReturn>
+	<view class="InfoItem1">
+		<view class="InfoItem">
+			<view class="InfoItem-name">头像</view>
+			<view class="InfoItem-white" bindtap="chooseImageUpload">
+			    <image src="/images/Message/details.png" style="width: 60rpx; height: 50rpx;background-color: #FFFFFF;margin-top: 20rpx; float: right;"></image>
+			</view>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">昵称</view>
+			<input class="InfoItem-white" value="{{nickName}}" bindinput="changename" bindblur="submitname"></input>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">签名</view>
+			<input class="InfoItem-white" value="{{signature}}" bindinput="changesignature" bindblur="submitsignature"></input>
+		</view>
+	</view>
+	<view class="InfoItem2">
+		<view class="InfoItem">
+			<view class="InfoItem-name">年级</view>
+			<text class="InfoItem-white">{{grade}}</text>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">专业</view>
+			<text class="InfoItem-white">{{major}}</text>
+		</view>
+	</view>
+	<view class="InfoItem3">
+		<view class="InfoItem">
+			<view class="InfoItem-name">生日</view>
+			<picker class="InfoItem-white" mode="date" value="{{date}}"  bindchange="bindDateChange">
+			    <view class="picker">
+			       {{date}}
+			    </view>
+			</picker>
+		</view>
+		<view class="InfoItem">
+			<view class="InfoItem-name">邮箱</view>
+			<input class="InfoItem-white" value="{{email}}" bindblur="submitemail" bindinput="changeemail"></input>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,17 @@
+<navigator url="{{url}}">
+<view class="releasetext">
+	<view class="titleandicon">
+		<text class="title">{{title}}\n</text>
+		<image class="icon" src="{{icon}}"></image>
+	</view>
+	<view class="abstract">{{abstract}}</view>
+	<view class="userandlogo">
+		<image class="userhead" src="{{userhead}}"></image>
+		<text class="name">{{name}}</text>
+		
+		<text class="numzan">{{numzan}}</text>
+		<image class="zanlogo" src="/images/Hotsearch/zanlogo.png"></image>	<text class="numcomment">{{numcomment}}</text>
+		<image class="commentlogo" src="{{commentsrc}}"></image>
+	</view>
+</view>
+</navigator>

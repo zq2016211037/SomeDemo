@@ -1,0 +1,7 @@
+<headerReturn></headerReturn>
+<releasenews></releasenews>
+<releasenews></releasenews>
+<releasenews></releasenews>
+<!--<view wx:for="{{MyReleaseLists}}" wx:key="{{index}}">-->
+	<releasetext  title="{{title}}" icon="{{icon}}" abstract="{{abstract}}" userhead="{{userhead}}" name="{{name}}" numcomment="{{numcomment}}" numzan="{{numzan}}"></releasetext>
+<!--</view>-->

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "giveLike": "/components/giveLike/giveLike"
+  }
+}

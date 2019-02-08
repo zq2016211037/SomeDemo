@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "headerReturn": "/components/headerReturn/headerReturn",
+    "urlovenews":"/components/urlovenews/urlovenews",
+    "urlovetext": "/components/urlovetext/urlovetext",
+    "topicnews": "/components/topicnews/urlovenews",
+    "topictext": "/components/topictext/urlovetext",
+    "giveLike":"/components/giveLike/giveLike"
+  }
+}

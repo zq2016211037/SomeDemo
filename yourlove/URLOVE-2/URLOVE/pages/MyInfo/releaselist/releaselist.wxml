@@ -1,0 +1,52 @@
+<headerReturn></headerReturn>
+<view wx:for="{{MyReleaseLists}}" wx:key="{{index}}">
+	<view wx:if="{{item.sign == 1}}">
+		<view wx:if="{{item.img == null}}">
+			<releasetext title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" userhead="{{item.userAvatarUrl}}" name="{{item.userName}}" numzan="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" commentsrc="/images/Hotsearch/comment.png" icon="/images/urlove/help.png"  url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=1"></releasetext>
+		</view>
+		<view wx:else>
+			<releasenews  title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" head="{{item.userAvatarUrl}}" name="{{item.userName}}" zannum="{{item.isLikeNum}}" img="{{item.img}}" numcomment="{{item.repliesNum}}" commentsrc="/images/Hotsearch/comment.png" commentnum="{{item.repliesNum}}" icon="/images/urlove/help.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=1"></releasenews>
+		</view>
+	</view>
+	<view wx:if="{{item.sign == 2}}">
+		<view wx:if="{{item.img == null}}">
+			<releasetext title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" userhead="{{item.userAvatarUrl}}" name="{{item.userName}}" numzan="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" commentsrc="/images/Hotsearch/comment.png" icon="/images/urlove/advertise.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=2"></releasetext>
+		</view>
+		<view wx:else>
+			<releasenews  title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" head="{{item.userAvatarUrl}}" name="{{item.userName}}" zannum="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" img="{{item.img}}" commentsrc="/images/Hotsearch/comment.png" commentnum="{{item.repliesNum}}" icon="/images/urlove/advertise.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=2"></releasenews>
+		</view>
+	</view>
+	<view wx:if="{{item.sign == 3}}">
+		<view wx:if="{{item.img == null}}">
+			<releasetext title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" userhead="{{item.userAvatarUrl}}" name="{{item.userName}}" numzan="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" commentsrc="/images/Hotsearch/comment.png" icon="/images/urlove/love.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=3"></releasetext>
+		</view>
+		<view wx:else>
+			<releasenews  title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" head="{{item.userAvatarUrl}}" name="{{item.userName}}" zannum="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" img="{{item.img}}" commentsrc="/images/Hotsearch/comment.png" commentnum="{{item.repliesNum}}" icon="/images/urlove/love.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=3"></releasenews>
+		</view>
+	</view>
+	<view wx:if="{{item.sign == 4}}">
+		<view wx:if="{{item.img == null}}">
+			<releasetext title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" userhead="{{item.userAvatarUrl}}" name="{{item.userName}}" numzan="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" commentsrc="/images/Hotsearch/comment.png" icon="/images/HotSearch/searchBarIcon3.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=4"></releasetext>
+		</view>
+		<view wx:else>
+			<releasenews  title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" head="{{item.userAvatarUrl}}" name="{{item.userName}}" zannum="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" img="{{item.img}}" commentsrc="/images/Hotsearch/comment.png" commentnum="{{item.repliesNum}}" icon="/images/HotSearch/searchBarIcon3.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=4"></releasenews>
+		</view>
+	</view>
+	<view wx:if="{{item.sign == 5}}">
+		<view  wx:if="{{item.img == null}}">
+			<releasetext title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" userhead="{{item.userAvatarUrl}}" name="{{item.userName}}" numzan="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" commentsrc="/images/Hotsearch/comment.png" icon="/images/yousuoai/trade.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=5"></releasetext>
+		</view>
+		<view  wx:else>
+			<releasenews  title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" head="{{item.userAvatarUrl}}" name="{{item.userName}}" zannum="{{item.isLikeNum}}" numcomment="{{item.repliesNum}}" img="{{item.img}}" commentsrc="/images/Hotsearch/comment.png" commentnum="{{item.repliesNum}}" icon="/images/yousuoai/trade.png" url="/pages/common/ContentDetail/ContentDetail?psgId={{item.topicId}}&topicType=5"></releasenews>
+		</view>
+	</view>
+
+	<view wx:if="{{item.sign == 6}}">
+		<view wx:if="{{item.img == null}}">
+			<releasetext title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" userhead="{{item.userAvatarUrl}}" name="{{item.userName}}" numzan="{{item.isLikeNum}}" icon="/images/urlove/topic.png" url="/pages/common/loveDetail/ContentDetail?psgId={{item.loveId}}"></releasetext>
+		</view>
+		<view  wx:else>
+			<releasenews  title="{{item.title}}" icon="{{icon}}" abstract="{{item.content}}" head="{{item.userAvatarUrl}}" name="{{item.userName}}" zannum="{{item.isLikeNum}}" img="{{item.img}}" icon="/images/urlove/topic.png" url="/pages/common/loveDetail/ContentDetail?psgId={{item.loveId}}"></releasenews>
+		</view>
+	</view>
+</view>

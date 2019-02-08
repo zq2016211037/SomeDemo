@@ -1,0 +1,13 @@
+<view class="hotSearchBar" bindtap="showDetail">
+  <view class="content">
+       <view class="numberTop" wx:if="{{numberColor}}">{{index}}</view>
+       <view class="number" wx:else>
+       	{{index}}
+       </view>
+       <view class="list">
+  		{{searchItem.search}}
+  		</view>
+  </view>
+  <image src="{{image}}"></image>
+</view>
+
